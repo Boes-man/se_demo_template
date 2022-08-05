@@ -10,29 +10,22 @@ This repository is dedicated to providing a starting point for SE demos using CI
 * Wiz Service Account (`security_scan:create`)
 * Ability to work with branches in Git
 
-### OPTIONAL - Supporting requirements for dev machine
-
-* Git installed
-* VS Code
-* Wiz-CLI
-* AWSCLI installed and operational
-* Azure CLI installed and operational
-* Terraform >= 1.0 installed and operational
-* Docker installed and running
-
 ## Basic Setup
 
-1. Create a new repository from the template repository
+1. Fork the [repo](https://github.com/Boes-man/wiz_se_demo_template) to your Github account.
+   Ensure the new forked repo in your Github account Settings > "Template repository" is checked.
+
+2. Create a new repository from the template repository
 
 ![](images/create_from_template.png)
 
-2. Set repository target and name (customize name to fit your needs)
+3. Set repository target and name (customize name to fit your needs)
 
 NOTE: BE SURE TO SELECT YOUR PERSONAL REPO
 
 ![](images/create_repo.png)
 
-3. Recreate repository secrets (obtained from Wiz service account `security_scan:create`)
+4. Recreate repository secrets (obtained from Wiz service account `security_scan:create`)
   * WIZ_CLIENT_ID
   * WIZ_CLIENT_SECRET
 
