@@ -116,6 +116,4 @@ This repository is currently under development. If you see a problem please open
 --------|--------|
 |`aws/terraforn-eks-pass`| Terraform instructions to build an EKS cluster |
 |`aws/terraforn-eks-fail`| Terraform instructions to build an EKS cluster |
-|`azure/terraform-aks-pass`| FUTURE USE |
-|`azure/terraform-aks-fail`| FUTURE USE |
 
