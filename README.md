@@ -21,15 +21,13 @@ This repository is dedicated to providing a starting point for SE demos using CI
 
 3. Set repository target and name (customize name to fit your needs)
 
-NOTE: BE SURE TO SELECT YOUR PERSONAL REPO
+NOTE: BE SURE TO SELECT YOUR PERSONAL REPO and that the repo is "Public"
 
 ![](images/create_repo.png)
 
 4. Recreate repository secrets (obtained from Wiz service account `security_scan:create`)
   * WIZ_CLIENT_ID
   * WIZ_CLIENT_SECRET
-
-NOTE: If targeting test you may also set the `WIZ_ENV` here as well.
 
 ![](images/create_secrets.png)
 
