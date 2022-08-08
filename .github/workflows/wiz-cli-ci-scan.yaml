@@ -15,8 +15,8 @@ jobs:
       SCAN_PATH_FAIL: "container-fail"
       IMAGE: setestimage
       TAG: latest
-      IAC_POLICY: "iac-fail-medium" # Set the desired Wiz-cli policy to use
-      VULN_POLICIES: "vuln-one-medium"
+      IAC_POLICY: "Default IaC policy" # Set the desired Wiz-cli policy to use
+      VULN_POLICIES: "Default vulnerabilities policy"
       WIZ_CLIENT_ID: ${{ secrets.WIZ_CLIENT_ID }}
       WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
       WIZ_ENV: ${{ secrets.WIZ_ENV }}
