@@ -6,26 +6,23 @@ This repository is dedicated to providing a starting point for SE demos using CI
 
 ## Requirements
 
-* Github Account
+* Github Account and logged in.
 * Wiz Service Account (`security_scan:create`)
 * Ability to work with branches in Git
 
 ## Basic Setup
 
-1. Fork the [repo](https://github.com/Boes-man/wiz_se_demo_template) to your Github account.
-   Ensure the new forked repo in your Github account Settings > "Template repository" is checked.
-
-2. Create a new repository from the template repository
+1. Create a new repository from the template repository
 
 ![](images/create_from_template.png)
 
-3. Set repository target and name (customize name to fit your needs)
+2. Set repository target and name (customize name to fit your needs)
 
 NOTE: BE SURE TO SELECT YOUR PERSONAL REPO and that the repo is "Public"
 
 ![](images/create_repo.png)
 
-4. Recreate repository secrets (obtained from Wiz service account `security_scan:create`)
+3. Recreate repository secrets (obtained from Wiz service account `security_scan:create`)
   * WIZ_CLIENT_ID
   * WIZ_CLIENT_SECRET
 
@@ -77,11 +74,11 @@ This repo is configured to have the following additonal branches
 
 The github actions located in `.github/workflows` will provide the required actions during PRs
 
-8. Enable branch protection
+8. [Optional] Enable branch protection
 
 ![](images/branch-protection.png)
 
-9. Configure branch protection for `main`
+9. [Optional] Configure branch protection for `main`
 
 ![](images/branch_policy.png)
 
