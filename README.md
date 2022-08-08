@@ -1,5 +1,5 @@
 
-# Wiz SE Demo Repository - Github
+# Wiz PoV Github Integration Repository
 
 ### Description
 This repository is dedicated to providing a starting point for Wiz Prospects in PoV, wanting to use Github integration for WizCLI. It leverages Github templates and Action to demostrate Pull Request based flow control.
