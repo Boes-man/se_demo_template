@@ -19,7 +19,6 @@ jobs:
       VULN_POLICIES: "Default vulnerabilities policy"
       WIZ_CLIENT_ID: ${{ secrets.WIZ_CLIENT_ID }}
       WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
-      WIZ_ENV: ${{ secrets.WIZ_ENV }}
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
@@ -74,7 +73,6 @@ jobs:
       IAC_POLICY: "iac-fail-medium" # Set the desired Wiz-cli policy to use
       WIZ_CLIENT_ID: ${{ secrets.WIZ_CLIENT_ID }}
       WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
-      WIZ_ENV: ${{ secrets.WIZ_ENV }}
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
