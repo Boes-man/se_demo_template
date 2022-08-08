@@ -2,7 +2,7 @@
 # Wiz SE Demo Repository - Github
 
 ### Description
-This repository is dedicated to providing a starting point for SE demos using CI integration for WizCLI
+This repository is dedicated to providing a starting point for Wiz Prospects in PoV, wanting to use Github integration for WizCLI. It leverages Github templates and Action to demostrate Pull Request based flow control.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ This repository is dedicated to providing a starting point for SE demos using CI
 
 2. Set repository target and name (customize name to fit your needs)
 
-NOTE: BE SURE TO SELECT YOUR PERSONAL REPO and that the repo is "Public"
+NOTE: BE SURE TO SELECT YOUR PERSONAL REPO
 
 ![](images/create_repo.png)
 
